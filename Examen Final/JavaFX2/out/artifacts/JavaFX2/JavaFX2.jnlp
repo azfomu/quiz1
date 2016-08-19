@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFX2.jnlp">
+  <information>
+    <title>JavaFX2</title>
+    <vendor>UIP</vendor>
+    <description>JavaFX2</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFX2.jar" size="3376" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="600" main-class="JavaFX2"  name="JavaFX2" />
+  <update check="background"/>
+</jnlp>
